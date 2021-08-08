@@ -1,8 +1,8 @@
 name: Custom
-on: [push]
+on: push
 jobs:
   main:
     runs-on: ubuntu-latest
     steps:
-    -  uses: actions/checkout@v2
-    -  uses: Sourav-Samaddar/custom-action@main
+      -  uses: actions/checkout@v2
+      -  uses: Sourav-Samaddar/custom-action@main
